@@ -1,0 +1,32 @@
+<div class="step-text">
+<div class="alert alert-warning">Hey there! This problem might be a bit unpredictable, but give it a go and let us know how you do!</div>Consider the following Java code snippet implementing the Builder pattern:
+<pre><code class="java">public class Car {
+    private final String engine;
+    private final int wheels;
+
+    private Car(Builder builder) {
+        this.engine = builder.engine;
+        this.wheels = builder.wheels;
+    }
+
+    public static class Builder {
+        private String engine;
+        private int wheels;
+
+        public Builder setEngine(String engine) {
+            this.engine = engine;
+            return this;
+        }
+
+        public Builder setWheels(int wheels) {
+            this.wheels = wheels;
+            return this;
+        }
+
+        public Car build() {
+            return new Car(this);
+        }
+    }
+}</code></pre>
+What benefits does this Builder pattern provide in the above implementation?
+</div>

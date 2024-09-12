@@ -1,0 +1,39 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+
+# idea config
+.idea
+
+# old stages
+/Anti-Fraud System/*
+!/Anti-Fraud System/task/
+/Anti-Fraud System/task/*
+!/Anti-Fraud System/task/src
+!/Anti-Fraud System/task/build.gradle
+
+# Project exclude paths
+/Topics/Builder/Builder/out/
+/Topics/Builder/Builder/out/production/classes/
+/Topics/Builder/Builder (1)/out/
+/Topics/Builder/Builder (1)/out/production/classes/
+/Topics/Builder/Disadvantage of Builder pattern/out/
+/Topics/Builder/Disadvantage of Builder pattern/out/production/classes/
+/Topics/Builder/Exploring benefits of a construction pattern/out/
+/Topics/Builder/Exploring benefits of a construction pattern/out/production/classes/
+/Topics/Builder/Geek Builder/out/
+/Topics/Builder/Geek Builder/out/production/classes/
+/Topics/Builder/Robot Builder/out/
+/Topics/Builder/Robot Builder/out/production/classes/
+/Topics/Builder/Theory/out/
+/Topics/Builder/Theory/out/production/classes/
+/Topics/Iterator and Iterable/Finding the max number/out/
+/Topics/Iterator and Iterable/Finding the max number/out/production/classes/
+/Topics/Iterator and Iterable/Theory/out/
+/Topics/Iterator and Iterable/Theory/out/production/classes/
+/Topics/Iterator and Iterable/What is an Iterable/out/
+/Topics/Iterator and Iterable/What is an Iterable/out/production/classes/
